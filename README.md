@@ -1,4 +1,4 @@
-# 🏢 Wielka Ucieczka z Więzienia (Więzienie Generalne v3.5)
+# 🏢 Wielka Ucieczka z Więzienia
 
 Interaktywna gra tekstowo-graficzna zrealizowana w języku Python z wykorzystaniem biblioteki graficznej `turtle`. Gracz wciela się w rolę więźnia, którego celem jest przetrwanie w trudnych warunkach, zarządzanie zasobami, unikanie strażników oraz zebranie odpowiednich narzędzi niezbędnych do zaplanowania i wykonania brawurowej ucieczki.
 
