@@ -7,7 +7,7 @@ Interaktywna gra tekstowo-graficzna zrealizowana w języku Python z wykorzystani
 Gra posiada dynamicznie skalowany poziom wyzwania wybierany na samym początku rozgrywki. Wpływa on bezpośrednio na ekonomię, mechanikę skradania, system minigier oraz unikalne ograniczenia biologiczne bohatera:
 
 | Cecha gry | 🟢 Łatwy | 🟡 Średni | 🔴 Trudny |
-| :---        |    :----:   |          ---: |
+| :--- | :---: | :---: | :---: |
 | **Próby przy szafkach** | **10 prób** (Brak pośpiechu) | **5 prób** (Zbalansowane) | **3 próby** (Wysokie ryzyko) |
 | **Zasięg kamer** | Mały (promień 10) | Standardowy (promień 15) | Olbrzymi (promień 25) |
 | **Szansa na ucieczkę/atak** | Bonus **+25%** do szans | Standardowe szanse | Kara **-15%** do szans |
