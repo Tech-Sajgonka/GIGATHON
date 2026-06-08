@@ -2,7 +2,7 @@ import random
 import turtle
 from datetime import datetime
 
-# Kolorki do konsoli - skrócone nazwy zmiennych, mniej szablonowo
+# Kolorki do konsoli
 C_RESET = "\033[0m"
 C_BOLD = "\033[1m"
 C_RED = "\033[31m"
