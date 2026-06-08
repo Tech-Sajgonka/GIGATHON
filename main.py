@@ -23,7 +23,7 @@ statystyki = {
     "Pączek": 30
 }
 
-class Wiezien: # zmienione z User na bardziej pasujące do gry
+class Wiezien:
     def __init__(self):
         # moj ekwipunek podręczny
         self.plecak = {
@@ -200,7 +200,6 @@ class Wiezien: # zmienione z User na bardziej pasujące do gry
         self.odswiezHud()
 
     def przemieszczenie(self, d_in, k_in):
-        # typowo ludzka walidacja błędów - jak coś padnie, ustawiamy wartości domyślne
         try:
             dist = int(d_in)
             if dist < 1 or dist > 10:
@@ -634,7 +633,6 @@ player.wybierz_poziom()
 
 print(f"\n{C_BOLD}{C_BLUE}=== KONFIGURACJA WIĘZIENIA GENERALNEGO ==={C_RESET}")
 
-# pobranie parametrów od użytkownika w tradycyjnych pętlach
 while True:
     szer_muru = input(f"{C_YELLOW}Podaj szerokość murów zewnętrznych: {C_RESET}").strip()
     if szer_muru.isdigit(): 
@@ -651,7 +649,6 @@ player.generuj_mape(int(szer_muru), int(wys_muru))
 
 print(f"{C_GREEN}**Trafiłeś do więzienia, które dawno temu znajdowało się w Niemczech. Jesteś Polakiem i bardzo ciężko jest ci się komunikować, lecz umiesz rozmawiać po angielsku! Wykorzystaj tą umiejętność, aby uciec z więzienia! {C_BOLD}Powodzenia!**{C_RESET}")
 
-# Główna pętla gry pozbawiona sztucznego mapowania funkcji helperami
 while gd:
     decyzja = player.menu_wyboru()
     if not gd: 
